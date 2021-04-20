@@ -49,9 +49,6 @@ class Solution
                 count++;
         }
 
-        if (count < 9)
-            return true;
-
-        return false;
+        return count < 9;
     }
 }
